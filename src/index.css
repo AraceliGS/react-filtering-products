@@ -2,4 +2,28 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  box-sizing: border-box;
 }
+
+.table-container {
+  width: 100%;
+  margin: 2em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  border: 1px solid gray;
+}
+
+thead th {
+  background-color: #DFDE6D;
+}
+
+tbody th {
+  background: #BEDC28;
+}
+
+
+

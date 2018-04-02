@@ -3,13 +3,8 @@ import SearchBar from '../SearchBar';
 import ProductTable from './ProductTable';
 
 const FilterableProductTable = ({products}) => {
-  const style = {
-    width: '70%',
-    float: 'left'
-  }
-
   return(
-    <div style={style}>
+    <div className="table-container">
       <SearchBar />
       <ProductTable products={products} />
     </div>
